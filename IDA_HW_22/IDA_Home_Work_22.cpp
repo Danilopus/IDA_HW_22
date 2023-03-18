@@ -18,7 +18,7 @@ double Get_Random(double Range_min, double Range_max);
 template <typename ANY> void Fill_Array_with_Random(ANY arr[], int Size, ANY Range_min, ANY Range_max);
 template <typename ANY> void Array_Console_Out(ANY arr[], int Size);
 
-// Homework 19 -----------------------------------------------------	
+// Homework 22 -----------------------------------------------------	
 
 //Task 1
 template <typename ANY> void Swap_even_and_odd_in_array(ANY arr[], int Size)
