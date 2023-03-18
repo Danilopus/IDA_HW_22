@@ -31,7 +31,6 @@ void Swap_even_and_odd_in_array()
 {
 	int const Size = 10;
 	static int programm_variants = {};
-
 	if (programm_variants % 2 == 0)
 	{
 		double Test_Array[Size] = {};
@@ -45,7 +44,6 @@ void Swap_even_and_odd_in_array()
 	else
 	{
 		int Test_Array[Size] = {};
-
 		Fill_Array_with_Random(Test_Array, Size, -999, 999);
 		std::cout << "\nRandom integer array:";
 		Array_Console_Out(Test_Array, Size);
